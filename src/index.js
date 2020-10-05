@@ -44,7 +44,7 @@ const ceaserToFile = ({
   return fs
     .readFile(inputUrl, 'utf8')
     .then(content =>
-      fs.writeFile(outputUrl, caeserCoder(content, shift, action))
+      fs.appendFile(outputUrl, caeserCoder(content, shift, action))
     )
     .catch(err => console.error(err));
 };

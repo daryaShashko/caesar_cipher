@@ -33,8 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e161ef2-35eb-42ca-90b4-5fc9d0374799" name="Default Changelist" comment="[feat]: add caesars cipher algorithm">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/caesarsAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/caesarsAlgorithm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601828442668</updated>
       <workItem from="1601828443839" duration="30098000" />
-      <workItem from="1601921753766" duration="8318000" />
+      <workItem from="1601921753766" duration="8385000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: add some functionality">
       <created>1601907432103</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601930718547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[ref]: refactor encode">
+      <created>1601930802404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601930802404</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +165,8 @@
     <MESSAGE value="[feat]: add caesars cipher algorithm" />
     <MESSAGE value="[feat]: parse arguments" />
     <MESSAGE value="[ref]: refactor some data" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ref]: refactor some data" />
+    <MESSAGE value="[ref]: refactor encode" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ref]: refactor encode" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="300" key="#ESLint" timestamp="1601928750708">
