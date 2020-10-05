@@ -5,10 +5,6 @@ const FIRST_UPPERCASE_CODE = 97;
 const LAST_UPPERCASE_CODE = 122;
 const reg = /[a-zA-Z]+/g;
 
-// const shift = 3;
-// const c = 'yzawxpeaasWQasd maskdmWpasdXZzdfae+0342 +231\n';
-// const d = 'bcdzashddvZTdvg pdvngpZsdvgACcgidh+0342 +231\n';
-
 const replacer = (word, shift, action) => {
   const isActionDecode = action === 'decode';
   const arr = [...word].map(char => {

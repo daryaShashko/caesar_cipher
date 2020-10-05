@@ -16,10 +16,10 @@ const myParseInt = value => {
 };
 
 const actionParser = value => {
-  const regex = /\b(code|decode)\b/;
+  const regex = /\b(encode|decode)\b/;
   const isValid = value && regex.test(value);
   if (!isValid) {
-    console.error('error: please, use only decode or code names for action');
+    console.error('error: please, use only decode or encode names for action');
     // eslint-disable-next-line no-process-exit
     return process.exit();
   }
