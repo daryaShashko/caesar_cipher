@@ -33,7 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e161ef2-35eb-42ca-90b4-5fc9d0374799" name="Default Changelist" comment="[feat]: add caesars cipher algorithm">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601828442668</updated>
       <workItem from="1601828443839" duration="30098000" />
-      <workItem from="1601921753766" duration="8801000" />
+      <workItem from="1601921753766" duration="9969000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: add some functionality">
       <created>1601907432103</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601930896832</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[readme]: changes in readme">
+      <created>1601931297367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601931297367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +183,8 @@
     <MESSAGE value="[ref]: refactor some data" />
     <MESSAGE value="[ref]: refactor encode" />
     <MESSAGE value="[ref]: change write to append" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ref]: change write to append" />
+    <MESSAGE value="[readme]: changes in readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="[readme]: changes in readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="300" key="#ESLint" timestamp="1601928750708">
