@@ -33,12 +33,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e161ef2-35eb-42ca-90b4-5fc9d0374799" name="Default Changelist" comment="[feat]: add caesars cipher algorithm">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/caesarsAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/caesarsAlgorithm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/lib/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-auth/boards.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-auth/tasks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-auth/users.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test/boards.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test/tasks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test/users.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/utils/createAuthorizedRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/utils/shouldAuthorizationBeTested.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/setup.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +85,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -76,6 +100,11 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Darya_Shashko\Documents\GitHub\rss\caesar_cipher" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -88,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601828442668</updated>
       <workItem from="1601828443839" duration="30098000" />
-      <workItem from="1601921753766" duration="6568000" />
+      <workItem from="1601921753766" duration="8221000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: add some functionality">
       <created>1601907432103</created>
@@ -118,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601925555826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[feat]: parse arguments">
+      <created>1601929066578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601929066578</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +177,8 @@
     <MESSAGE value="[linter]: fix eslint config" />
     <MESSAGE value="[feat]: add caesars cipher algorithm" />
     <MESSAGE value="[feat]: parse arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: parse arguments" />
+    <MESSAGE value="[ref]: refactor some data" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ref]: refactor some data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="300" key="#ESLint" timestamp="1601928750708">
