@@ -179,7 +179,7 @@
         "allowArrowFunctions": true
       }
     ],
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"],
     "max-nested-callbacks": [2, 4],
     "new-parens": 2,
     "no-array-constructor": 2,
