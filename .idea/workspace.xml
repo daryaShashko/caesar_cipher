@@ -33,14 +33,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e161ef2-35eb-42ca-90b4-5fc9d0374799" name="Default Changelist" comment="[feat]: add caesars cipher algorithm">
-      <change afterPath="$PROJECT_DIR$/src/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/caesarsAlgorithm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TASKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/TASKS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601828442668</updated>
-      <workItem from="1601828443839" duration="27173000" />
+      <workItem from="1601828443839" duration="30098000" />
+      <workItem from="1601921753766" duration="3195000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]: add some functionality">
       <created>1601907432103</created>
@@ -90,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601907470294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[feat]: add caesars cipher algorithm">
+      <created>1601917244756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601917244756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,12 +124,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[feat]: add some functionality" />
     <MESSAGE value="[linter]: fix eslint config" />
     <MESSAGE value="[feat]: add caesars cipher algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: add caesars cipher algorithm" />
+    <MESSAGE value="[feat]: parse arguments" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: parse arguments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="300" key="#ESLint" timestamp="1601907324298">
@@ -130,9 +150,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601906194382" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1601834922808">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601921891712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601834922808" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601921891712" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1601920961864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601920961864" />
   </component>
 </project>
