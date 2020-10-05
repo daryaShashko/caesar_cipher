@@ -1,20 +1,12 @@
 #!/usr/bin/env node
 const { PORT } = require('./common/config');
 const app = require('./app');
-// const fs = require('fs');
+const caeserCoder = require('./caesarsAlgorithm');
+const fs = require('fs').promises;
 
 const { program } = require('commander');
 
 program.storeOptionsAsProperties(false).passCommandToAction(false);
-
-// const fileReader = url => {
-//   fs.readFile(url, 'utf8', (err, data) => {
-//     if (err) {
-//       return console.log(err);
-//     }
-//     console.log(data);
-//   });
-// };
 
 const myParseInt = value => {
   if (!Number(value)) {
@@ -43,13 +35,38 @@ program
   .option('-o, --output <value>', 'file for save')
   .parse(process.argv);
 
-console.log(program.opts());
-// const args = program.opts();
-// if (args.shift === undefined || args.action === undefined)
-//   console.error('ERROR!');
-// if (args.action && /^(decode|encode)$/i.test(args.action))
-//   console.error('ERROR! in action');
-// console.log(args);
+const props = program.opts();
+console.log(props);
+
+const ceaserToFile = ({
+  input: inputUrl,
+  output: outputUrl,
+  shift,
+  action
+}) => {
+  console.log('--------', caeserCoder);
+  return fs
+    .readFile(inputUrl, 'utf8')
+    .then(content =>
+      fs.writeFile(outputUrl, caeserCoder(content, shift, action))
+    )
+    .catch(err => console.error(err));
+};
+
+ceaserToFile(props);
+//
+// const fileReader = url => {
+//   fs.readFile(url, 'utf8', (err, data) => {
+//     if (err) {
+//       return console.log(err);
+//     }
+//     console.log(data);
+//   });
+// };
+//
+// const fileWriter = url => {
+//   fs.writeFile(url);
+// };
 
 app.listen(PORT, () =>
   console.log(`App is running on http://localhost:${PORT}`)

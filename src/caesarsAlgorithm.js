@@ -5,12 +5,12 @@ const FIRST_UPPERCASE_CODE = 97;
 const LAST_UPPERCASE_CODE = 122;
 const reg = /[a-zA-Z]+/g;
 
-const shift = 3;
+// const shift = 3;
 // const c = 'yzawxpeaasWQasd maskdmWpasdXZzdfae+0342 +231\n';
-const d = 'bcdzashddvZTdvg pdvngpZsdvgACcgidh+0342 +231\n';
-const isActionDecode = true;
+// const d = 'bcdzashddvZTdvg pdvngpZsdvgACcgidh+0342 +231\n';
 
-const replacer = word => {
+const replacer = (word, shift, action) => {
+  const isActionDecode = action === 'decode';
   const arr = [...word].map(char => {
     const trueShift = isActionDecode
       ? (ALPHABET_LENGTH - shift) % ALPHABET_LENGTH
@@ -31,8 +31,6 @@ const replacer = word => {
   return String.fromCharCode(...arr);
 };
 
-// const caeserCoder = (text, shift, decode) => {
-//   text.replace(reg, replacer);
-// };
-
-console.log(d.replace(reg, replacer));
+module.exports = function ceaser(text, shift, action) {
+  return text.replace(reg, word => replacer(word, shift, action));
+};
